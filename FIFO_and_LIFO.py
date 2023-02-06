@@ -37,3 +37,8 @@ print("LIFO_1 remove order:",lifo1_after)
 # LIFO testing using array and pop
 print("_"*20)
 item_list = ['A1','B2','C3']
+lifo2_after = []
+LIFO_2 = []
+
+for item in item_list:
+    LIFO_2.append(item)
