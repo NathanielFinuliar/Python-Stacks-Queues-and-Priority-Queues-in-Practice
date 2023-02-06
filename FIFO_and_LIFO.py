@@ -44,3 +44,7 @@ for item in item_list:
     LIFO_2.append(item)
 print("LIFO Test 2:")
 print("LIFO_2 Insert order: ",LIFO_2)
+for item in range(len(LIFO_2)):
+    lifo2_after.append(LIFO_2.pop())
+print("LIFO_2 Insert order: ",lifo2_after)
+
