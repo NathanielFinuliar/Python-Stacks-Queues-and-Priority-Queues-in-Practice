@@ -33,3 +33,7 @@ lifo1_after = []
 for item in LIFO_1:
     lifo1_after.append(item)
 print("LIFO_1 remove order:",lifo1_after)
+
+# LIFO testing using array and pop
+print("_"*20)
+item_list = ['A1','B2','C3']
