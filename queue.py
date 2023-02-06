@@ -32,3 +32,7 @@ class PriorityQueue:
 
     def dequeue(self):
         return heappop(self._elements)
+
+class ReversedPriorityQueue:
+    def __init__(self):
+        self._elements = []
