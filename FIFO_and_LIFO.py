@@ -26,3 +26,5 @@ print("FIFO 2 length after: ",len(FIFO_2))
 # LIFO (Last In First Out)
 # LIFO testing with Stacks
 print("_"*20)
+print("LIFO Test 1:")
+print("LIFO_1 Insert Order: ['A1', 'B2', 'C3']")
