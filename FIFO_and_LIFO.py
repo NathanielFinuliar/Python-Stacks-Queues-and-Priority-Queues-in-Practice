@@ -19,3 +19,5 @@ print("FIFO Test 2:")
 print("FIFO 2 length before: ",len(FIFO_2))
 for item in FIFO_2:
     print(" ",item)
+
+print("FIFO 2 length after: ",len(FIFO_2))
