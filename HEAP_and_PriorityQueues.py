@@ -5,3 +5,4 @@ languages = []
 heappush(languages, "Mandarin") #2 in alphabetical order
 heappush(languages, "English")  #1 in alphabetical order
 heappush(languages, "Tagalog")  #3 in alphabetical order
+print("_"*30)
