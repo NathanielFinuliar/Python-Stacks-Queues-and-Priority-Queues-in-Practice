@@ -6,3 +6,5 @@ heappush(languages, "Mandarin") #2 in alphabetical order
 heappush(languages, "English")  #1 in alphabetical order
 heappush(languages, "Tagalog")  #3 in alphabetical order
 print("_"*30)
+print(" Heap test 1:")
+print(" Heap values before heappop: \t",languages)
