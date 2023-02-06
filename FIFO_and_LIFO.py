@@ -7,3 +7,5 @@ FIFO_1 = Queue()
 FIFO_1.enqueue("A1")
 FIFO_1.enqueue("B2")
 FIFO_1.enqueue("C3")
+
+print("FIFO Test 1:")
