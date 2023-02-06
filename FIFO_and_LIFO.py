@@ -42,3 +42,5 @@ LIFO_2 = []
 
 for item in item_list:
     LIFO_2.append(item)
+print("LIFO Test 2:")
+print("LIFO_2 Insert order: ",LIFO_2)
