@@ -28,3 +28,5 @@ print("FIFO 2 length after: ",len(FIFO_2))
 print("_"*20)
 print("LIFO Test 1:")
 print("LIFO_1 Insert Order: ['A1', 'B2', 'C3']")
+LIFO_1 = Stack("A1","B2","C3")
+lifo1_after = []
