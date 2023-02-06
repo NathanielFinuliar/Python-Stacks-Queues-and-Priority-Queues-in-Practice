@@ -11,3 +11,6 @@ FIFO_1.enqueue("C3")
 print("FIFO Test 1:")
 for _ in range(len(FIFO_1)):
     print(" ",FIFO_1.dequeue())
+
+# FIFO testing with Queues
+print("_"*20)
