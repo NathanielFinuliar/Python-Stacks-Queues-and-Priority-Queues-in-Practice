@@ -21,3 +21,8 @@ for item in FIFO_2:
     print(" ",item)
 
 print("FIFO 2 length after: ",len(FIFO_2))
+
+
+# LIFO (Last In First Out)
+# LIFO testing with Stacks
+print("_"*20)
