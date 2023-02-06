@@ -16,3 +16,4 @@ for _ in range(len(FIFO_1)):
 print("_"*20)
 FIFO_2 = Queue("A1","B2","C3")
 print("FIFO Test 2:")
+print("FIFO 2 length before: ",len(FIFO_2))
