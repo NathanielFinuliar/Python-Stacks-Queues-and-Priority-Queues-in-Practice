@@ -12,3 +12,6 @@ class Queue:
     def __iter__(self):
         while len(self) > 0:
             yield self.dequeue()
+
+    def enqueue(self, element):
+        self._elements.append(element)
