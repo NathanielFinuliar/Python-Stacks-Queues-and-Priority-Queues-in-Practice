@@ -30,3 +30,6 @@ print("LIFO Test 1:")
 print("LIFO_1 Insert Order: ['A1', 'B2', 'C3']")
 LIFO_1 = Stack("A1","B2","C3")
 lifo1_after = []
+for item in LIFO_1:
+    lifo1_after.append(item)
+print("LIFO_1 remove order:",lifo1_after)
