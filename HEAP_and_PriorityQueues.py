@@ -35,3 +35,5 @@ challenge.enqueue_with_priority(Easy, "Level 1")
 challenge.enqueue_with_priority(Medium, "Level 3")
 challenge.enqueue_with_priority(Hard, "Level 5")
 challenge.enqueue_with_priority(Medium, "Level 4")
+
+print("_"*30)
