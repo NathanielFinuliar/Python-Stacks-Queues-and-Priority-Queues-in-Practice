@@ -38,3 +38,5 @@ challenge.enqueue_with_priority(Medium, "Level 4")
 
 print("_"*30)
 print("Priority Queue Test 1: ")
+for _ in range(len(challenge._elements)):
+    print(challenge.dequeue())
