@@ -32,3 +32,4 @@ Easy = 3
 
 challenge = PriorityQueue()
 challenge.enqueue_with_priority(Easy, "Level 1")
+challenge.enqueue_with_priority(Medium, "Level 3")
