@@ -51,3 +51,7 @@ def breadth_first_traverse(graph, source, order_by=None):
             if neighbor not in visited:
                 visited.add(neighbor)
                 queue.enqueue(neighbor)
+
+def breadth_first_search(graph, source, predicate, order_by=None):
+    return search(breadth_first_traverse, graph, source, predicate, order_by)
+
