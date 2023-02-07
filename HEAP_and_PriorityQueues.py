@@ -23,3 +23,9 @@ if(entity1 > entity2):
     print("Level 100 King with Skill has higher priority than Level 100 King with Power")
 if(entity3 < entity2):
     print("Level 50 King, has a lower priority than Level 100, King")
+
+
+# Priority Queue testing 1
+Hard = 1
+Medium = 2
+Easy = 3
