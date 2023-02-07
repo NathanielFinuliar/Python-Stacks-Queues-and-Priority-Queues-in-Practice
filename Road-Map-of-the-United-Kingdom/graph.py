@@ -55,3 +55,5 @@ def breadth_first_traverse(graph, source, order_by=None):
 def breadth_first_search(graph, source, predicate, order_by=None):
     return search(breadth_first_traverse, graph, source, predicate, order_by)
 
+def shortest_path(graph, source, destination, order_by=None):
+    queue = Queue(source)
