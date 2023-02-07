@@ -48,3 +48,4 @@ Easy = 3
 
 challenge_2 = ReversedPriorityQueue()
 challenge_2.enqueue_with_priority(Easy, "Level 1")
+challenge_2.enqueue_with_priority(Medium, "Level 3")
