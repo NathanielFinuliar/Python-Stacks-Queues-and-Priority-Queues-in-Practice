@@ -43,3 +43,4 @@ for _ in range(len(challenge._elements)):
 
 # Priority Queue testing 2
 Hard = 1
+Medium = 2
