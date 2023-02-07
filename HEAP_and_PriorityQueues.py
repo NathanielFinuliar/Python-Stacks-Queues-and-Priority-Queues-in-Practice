@@ -18,3 +18,5 @@ print("Heap test 2:")
 entity1 = ("King","Skill", 100)
 entity2 = ("King","Power", 100)
 entity3 = ("King","Power", 50)
+
+if(entity1 > entity2):
