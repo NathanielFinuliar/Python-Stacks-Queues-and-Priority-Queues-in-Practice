@@ -40,3 +40,6 @@ print("_"*30)
 print("Priority Queue Test 1: ")
 for _ in range(len(challenge._elements)):
     print(challenge.dequeue())
+
+# Priority Queue testing 2
+Hard = 1
