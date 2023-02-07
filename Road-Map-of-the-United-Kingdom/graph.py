@@ -3,3 +3,4 @@
 
 from collections import deque
 from math import inf as infinity
+from typing import NamedTuple
