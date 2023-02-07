@@ -45,3 +45,5 @@ for _ in range(len(challenge._elements)):
 Hard = 1
 Medium = 2
 Easy = 3
+
+challenge_2 = ReversedPriorityQueue()
