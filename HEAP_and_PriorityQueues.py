@@ -22,3 +22,4 @@ entity3 = ("King","Power", 50)
 if(entity1 > entity2):
     print("Level 100 King with Skill has higher priority than Level 100 King with Power")
 if(entity3 < entity2):
+    print("Level 50 King, has a lower priority than Level 100, King")
