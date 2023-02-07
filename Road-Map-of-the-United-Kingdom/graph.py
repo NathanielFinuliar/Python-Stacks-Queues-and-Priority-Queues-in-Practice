@@ -44,3 +44,10 @@ def breadth_first_traverse(graph, source, order_by=None):
     visited = {source}
     while queue:
         yield (node := queue.dequeue())
+        neighbors = list(graph.neighbors(node))
+        if order_by:
+            neighbors.sort(key=order_by)
+        for neighbor in neighbors:
+            if neighbor not in visited:
+                visited.add(neighbor)
+                queue.enqueue(neighbor)
