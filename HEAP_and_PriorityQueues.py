@@ -29,3 +29,5 @@ if(entity3 < entity2):
 Hard = 1
 Medium = 2
 Easy = 3
+
+challenge = PriorityQueue()
